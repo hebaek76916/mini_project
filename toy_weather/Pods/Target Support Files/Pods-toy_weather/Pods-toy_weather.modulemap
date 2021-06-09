@@ -1,0 +1,6 @@
+framework module Pods_toy_weather {
+  umbrella header "Pods-toy_weather-umbrella.h"
+
+  export *
+  module * { export * }
+}
