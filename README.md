@@ -199,3 +199,8 @@ MIT
    [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
    [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
    [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+   
+
+
+
+[PlGa]: <https://github.com/hebaek76916/mini_project/blob/master/mini_skills/mini_skills/TableVIewControllers/FadeOutViewController.swift>
