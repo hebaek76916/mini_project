@@ -15,6 +15,12 @@
 		13853C14269353570048555D /* TopStoriesNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13853C13269353570048555D /* TopStoriesNewsViewController.swift */; };
 		13853C17269353710048555D /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13853C16269353710048555D /* SearchResultsViewController.swift */; };
 		13853C1A269353830048555D /* StockDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13853C19269353830048555D /* StockDetailsViewController.swift */; };
+		13FB8126269B1AD1002561F8 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB8125269B1AD1002561F8 /* APICaller.swift */; };
+		13FB8129269B1AE2002561F8 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB8128269B1AE2002561F8 /* PersistenceManager.swift */; };
+		13FB812C269B1AF8002561F8 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB812B269B1AF8002561F8 /* HapticsManager.swift */; };
+		13FB8130269B396B002561F8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB812F269B396B002561F8 /* Extensions.swift */; };
+		13FB8133269B3B62002561F8 /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB8132269B3B62002561F8 /* SearchResultTableViewCell.swift */; };
+		13FB8137269B4768002561F8 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB8136269B4768002561F8 /* SearchResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		13853C13269353570048555D /* TopStoriesNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesNewsViewController.swift; sourceTree = "<group>"; };
 		13853C16269353710048555D /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		13853C19269353830048555D /* StockDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsViewController.swift; sourceTree = "<group>"; };
+		13FB8125269B1AD1002561F8 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		13FB8128269B1AE2002561F8 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		13FB812B269B1AF8002561F8 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		13FB812F269B396B002561F8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		13FB8132269B3B62002561F8 /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		13FB8136269B4768002561F8 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,7 @@
 		13853C0A2693521B0048555D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				13FB8136269B4768002561F8 /* SearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -91,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				13853C00269351AE0048555D /* LaunchScreen.storyboard */,
+				13FB8132269B3B62002561F8 /* SearchResultTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -109,6 +123,10 @@
 		13853C0E2693523B0048555D /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				13FB8125269B1AD1002561F8 /* APICaller.swift */,
+				13FB8128269B1AE2002561F8 /* PersistenceManager.swift */,
+				13FB812B269B1AF8002561F8 /* HapticsManager.swift */,
+				13FB812F269B396B002561F8 /* Extensions.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -183,8 +201,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				13853C1A269353830048555D /* StockDetailsViewController.swift in Sources */,
+				13FB8133269B3B62002561F8 /* SearchResultTableViewCell.swift in Sources */,
 				13853BFA269351AD0048555D /* WatchListViewController.swift in Sources */,
+				13FB812C269B1AF8002561F8 /* HapticsManager.swift in Sources */,
 				13853C14269353570048555D /* TopStoriesNewsViewController.swift in Sources */,
+				13FB8129269B1AE2002561F8 /* PersistenceManager.swift in Sources */,
+				13FB8130269B396B002561F8 /* Extensions.swift in Sources */,
+				13FB8126269B1AD1002561F8 /* APICaller.swift in Sources */,
+				13FB8137269B4768002561F8 /* SearchResponse.swift in Sources */,
 				13853BF6269351AD0048555D /* AppDelegate.swift in Sources */,
 				13853BF8269351AD0048555D /* SceneDelegate.swift in Sources */,
 				13853C17269353710048555D /* SearchResultsViewController.swift in Sources */,
