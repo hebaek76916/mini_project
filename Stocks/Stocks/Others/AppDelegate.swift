@@ -43,6 +43,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //                print(error)
 //            }
 //        }
+        
+        APICaller.shared.news(for: .compan(symbol: "MSFT")) { result in
+            switch result {
+            case .success(let news):
+                print(news.count)
+            case .failure:
+                break
+            }
+        }
     }
 }
 
