@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1383050626AD1644003A7C68 /* StickyHeaderTableViewControlelr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383050526AD1644003A7C68 /* StickyHeaderTableViewControlelr.swift */; };
 		13A813D7265A58D400D160C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A813D6265A58D400D160C4 /* AppDelegate.swift */; };
 		13A813D9265A58D400D160C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A813D8265A58D400D160C4 /* SceneDelegate.swift */; };
 		13A813DB265A58D400D160C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A813DA265A58D400D160C4 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1383050526AD1644003A7C68 /* StickyHeaderTableViewControlelr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderTableViewControlelr.swift; sourceTree = "<group>"; };
 		13A813D3265A58D400D160C4 /* drawing_practice_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drawing_practice_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A813D6265A58D400D160C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13A813D8265A58D400D160C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				13A813EC265A5A9800D160C4 /* ButtonAnimationViewController.swift */,
+				1383050526AD1644003A7C68 /* StickyHeaderTableViewControlelr.swift */,
 			);
 			path = TableViewControllers;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				13A813ED265A5A9800D160C4 /* ButtonAnimationViewController.swift in Sources */,
 				13A813D7265A58D400D160C4 /* AppDelegate.swift in Sources */,
 				13A813D9265A58D400D160C4 /* SceneDelegate.swift in Sources */,
+				1383050626AD1644003A7C68 /* StickyHeaderTableViewControlelr.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

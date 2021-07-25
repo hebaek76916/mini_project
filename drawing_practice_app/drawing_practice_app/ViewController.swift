@@ -9,7 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let nameArray = ["ButtonAnimationVC"]
+    let nameArray = ["ButtonAnimationVC",
+    "Sticky header VC"]
     
     let tableView = UITableView(frame: .zero)
     
@@ -49,6 +50,9 @@ extension ViewController: UITableViewDelegate,
         switch indexPath.row {
         case 0:
             let vc = ButtonAnimationViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 1:
+            let vc = StickyHeaderTableViewControlelr()
             navigationController?.pushViewController(vc, animated: true)
         default:
             print("Undefined Row")
