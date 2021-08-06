@@ -9,6 +9,8 @@ import Foundation
 
 
 final class APICaller {
+    
+    // Singleton
     static let shared = APICaller()
 
     private struct Constants {
@@ -27,13 +29,7 @@ final class APICaller {
         query: String,
         completion: @escaping (Result<SearchResponse, Error>) -> Void
     ) {
-//        guard let url = url(
-//                for: .search,
-//                queryParams: ["q": query]
-//        ) else {
-//            return
-//        }
-//
+
         //guard for safe query
         guard let safeQuery = query.addingPercentEncoding(
                 withAllowedCharacters: .urlQueryAllowed
@@ -97,6 +93,18 @@ final class APICaller {
             completion: completion)
     }
     
+    public func financialMetrics(
+        for symbol: String,
+        completion: @escaping (Result<FinancialMetricsResponse, Error>) -> Void
+    ) {
+       
+        request(url: url(for: .financials,
+                         queryParams: ["symbol": symbol, "metric": "all"]),
+                expecting: FinancialMetricsResponse.self,
+                completion: completion)
+    }
+    
+    
     // MARK : - Private
     
     private enum Endpoint: String {
@@ -104,6 +112,7 @@ final class APICaller {
         case topStories = "news"
         case companyNews = "company-news"
         case marketData = "stock/candle"
+        case financials = "stock/metric"
     }
     
     private enum APIError: Error {

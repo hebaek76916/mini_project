@@ -43,6 +43,7 @@ class WatchListTableViewCell: UITableViewCell {
     private let miniChartView: StockChartView = {
         let chart = StockChartView()
         chart.clipsToBounds = true
+        chart.isUserInteractionEnabled = false
         return chart
     }()
     
@@ -150,6 +151,6 @@ class WatchListTableViewCell: UITableViewCell {
         changeLabel.backgroundColor = viewModel.changeColor
         
         // Configure Chart
-        
+        miniChartView.configure(with: viewModel.chartViewModel)
     }
 }

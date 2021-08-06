@@ -34,12 +34,30 @@ final class PersistenceManager {
         return userDefaults.stringArray(forKey: Constants.watchlistKey) ?? []
     }
     
-    public func addToWatchlist() {
-        
+    public func watchlistContains(symbol: String) -> Bool {
+        return watchlist.contains(symbol)
     }
     
-    public func removeFromWathchlist() {
+    public func addToWatchlist(symbol: String, companyName: String) {
+        var current = watchlist
         
+        current.append(symbol)
+        userDefaults.set(current, forKey: Constants.watchlistKey)
+        userDefaults.set(companyName, forKey: symbol)
+        
+        //NotificationCenter.default.post(name: .didAddToWatchlist, object: nil)
+        NotificationCenter.default.post(name: .didAddToWatchList, object: nil)
+    }
+    
+    public func removeFromWathchlist(symbol: String) {
+        var newList = [String]()
+        
+        userDefaults.set(nil, forKey: symbol)
+        for item in watchlist where item != symbol { // Where이 for 문에서 조건(?)으로 쓰일 수 있구나! 즉 item중 symbol이 아닌!
+            newList.append(item)
+        }
+        
+        userDefaults.set(newList, forKey: Constants.watchlistKey)
     }
     
     // MARK : - Private

@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047D76498A17B6C95D977218DFA73BA5 /* CarLensCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82F719F6F5E39D54152AF0C39D7AB7CA /* CarLensCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11B0D46B3480BE3CEAA874927EB29FEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		33EC24231453835AF52189736EF9F596 /* Pods-presento-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83DE2A0D8E9963414A8C96E3B4EA0AEA /* Pods-presento-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45640AC59C2BDAFC00CEB270C2AF1149 /* CarLensCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7FD77737BC00F47E3D535DEB6E37C9 /* CarLensCollectionViewCell.swift */; };
+		4D074FA9E5CF3D84B3890F7296F22322 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		54409DDFE1401F6EEF32EF1DB30D6400 /* CarLensCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFD323199C5928F7E4F62D35A495A86 /* CarLensCollectionViewLayout-dummy.m */; };
+		7DB8B62463000ECBCAC8F938491C8904 /* CarLensLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506645C2D555DF7BBFDCF25655A16FA3 /* CarLensLayoutAttributes.swift */; };
+		89B6C1C798E8A1AB75B520C46BBCC985 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9475F41820409846EBDBF6A38A9D5A96 /* CarLensCollectionViewLayoutOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DF77D48541759705E49582521414E6 /* CarLensCollectionViewLayoutOptions.swift */; };
+		9848A5CD28352A383F07D924AF9C2276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		99EC4A4758976FD4926A4ABCFE8ECCEC /* ConfettiView-NSHipster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA40065DE87F92F30F93E0F3A583104B /* ConfettiView-NSHipster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD39CB2AC1308D3CA672E46BECDA9210 /* ConfettiView-NSHipster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C27628D79CA8CF526101F1EB13280560 /* ConfettiView-NSHipster-dummy.m */; };
+		D1CFE144B1F7E565993610EC95CD233B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		EAC33282C658E3416D85AE93CC6D4274 /* CarLensCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851C009419429ADD74D25CED5B65BB45 /* CarLensCollectionViewLayout.swift */; };
+		EB94FFA4EE05343DEF170B89622C48B6 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D277053BA0C7D3A3C4B2794842BD7E7D /* ConfettiView.swift */; };
+		EC4A365AAEB3F175BFC0AAF8F4A19CDE /* Pods-presento-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE6C0F0FE41CF59A267F4EB1DD82DC /* Pods-presento-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57709250C1ACE2C2B9854861B7BD66B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 337E77781DB4672FC745BCECDF329B93;
+			remoteInfo = CarLensCollectionViewLayout;
+		};
+		BABAD86958CEAA2A74CDB9AB38802591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FD1D9A88D1FD41141B3C3DE33891E97;
+			remoteInfo = "ConfettiView-NSHipster";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03DF77D48541759705E49582521414E6 /* CarLensCollectionViewLayoutOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CarLensCollectionViewLayoutOptions.swift; path = CarLensCollectionViewLayout/CarLensCollectionViewLayoutOptions.swift; sourceTree = "<group>"; };
+		07C98344ECB861D2011A73A12D7084AE /* CarLensCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CarLensCollectionViewLayout.modulemap; sourceTree = "<group>"; };
+		0E402480570F369262799F034BF1B9DE /* Pods-presento-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-presento-frameworks.sh"; sourceTree = "<group>"; };
+		12BCDC3DA5A5B00B77E14A3660A5EA0D /* CarLensCollectionViewLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CarLensCollectionViewLayout-Info.plist"; sourceTree = "<group>"; };
+		174BAC527ED34C655AE500865E605700 /* Pods-presento.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-presento.release.xcconfig"; sourceTree = "<group>"; };
+		1BB93494836C469630B4FD0D15DF7E89 /* Pods-presento.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-presento.modulemap"; sourceTree = "<group>"; };
+		1EDE6C0F0FE41CF59A267F4EB1DD82DC /* Pods-presento-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-presento-dummy.m"; sourceTree = "<group>"; };
+		3DF0829466C5AD8836C5E5AAD3CC37DC /* CarLensCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarLensCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
+		4FDD369DC7E5E83C6F77363F95BB87DC /* CarLensCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CarLensCollectionViewLayout.framework; path = CarLensCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		506645C2D555DF7BBFDCF25655A16FA3 /* CarLensLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CarLensLayoutAttributes.swift; path = CarLensCollectionViewLayout/CarLensLayoutAttributes.swift; sourceTree = "<group>"; };
+		57FC77C5D6580210059D323E1298756D /* CarLensCollectionViewLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CarLensCollectionViewLayout.release.xcconfig; sourceTree = "<group>"; };
+		61E7578FBE2BDA8036F8FA3AA7B08396 /* Pods_presento.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_presento.framework; path = "Pods-presento.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		675EEC465193B0B6BBD677F6BEB1726B /* CarLensCollectionViewLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CarLensCollectionViewLayout.debug.xcconfig; sourceTree = "<group>"; };
+		6DCCFAFB93FE69D4488C48084DEA5375 /* ConfettiView-NSHipster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ConfettiView-NSHipster.debug.xcconfig"; sourceTree = "<group>"; };
+		82F719F6F5E39D54152AF0C39D7AB7CA /* CarLensCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarLensCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
+		83DE2A0D8E9963414A8C96E3B4EA0AEA /* Pods-presento-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-presento-umbrella.h"; sourceTree = "<group>"; };
+		851C009419429ADD74D25CED5B65BB45 /* CarLensCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CarLensCollectionViewLayout.swift; path = CarLensCollectionViewLayout/CarLensCollectionViewLayout.swift; sourceTree = "<group>"; };
+		89CA430315BADA4C7C6A5B37CF823B32 /* ConfettiView-NSHipster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ConfettiView-NSHipster.release.xcconfig"; sourceTree = "<group>"; };
+		96B30BB649244CF991775D4AF70AC1A6 /* ConfettiView-NSHipster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConfettiView-NSHipster-prefix.pch"; sourceTree = "<group>"; };
+		9870BE9098680AC3FA67C158AAC5EB25 /* ConfettiView-NSHipster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ConfettiView-NSHipster.modulemap"; sourceTree = "<group>"; };
+		9AC18C3B41AAF5EA5DBFCC8553C4999B /* ConfettiView-NSHipster-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ConfettiView-NSHipster-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA40065DE87F92F30F93E0F3A583104B /* ConfettiView-NSHipster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConfettiView-NSHipster-umbrella.h"; sourceTree = "<group>"; };
+		BFFD323199C5928F7E4F62D35A495A86 /* CarLensCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CarLensCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
+		C27628D79CA8CF526101F1EB13280560 /* ConfettiView-NSHipster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConfettiView-NSHipster-dummy.m"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D277053BA0C7D3A3C4B2794842BD7E7D /* ConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfettiView.swift; path = Sources/ConfettiView/ConfettiView.swift; sourceTree = "<group>"; };
+		D8D7F176764CE52E5D7648F0DFF8070E /* Pods-presento-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-presento-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DAB5AB1F9A72C45CA698705A90E5A963 /* ConfettiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ConfettiView.framework; path = "ConfettiView-NSHipster.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B6435440CD2BE1FAB437E36B0D1D79 /* Pods-presento-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-presento-Info.plist"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE7FD77737BC00F47E3D535DEB6E37C9 /* CarLensCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CarLensCollectionViewCell.swift; path = CarLensCollectionViewLayout/CarLensCollectionViewCell.swift; sourceTree = "<group>"; };
+		F4280F237432297561990817B7638565 /* Pods-presento.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-presento.debug.xcconfig"; sourceTree = "<group>"; };
+		FE59A8823DC082CE2FC37909908A8FFD /* Pods-presento-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-presento-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		262FBC9F1A25D944677836FBCB061202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9848A5CD28352A383F07D924AF9C2276 /* Foundation.framework in Frameworks */,
+				11B0D46B3480BE3CEAA874927EB29FEA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3830C31B5FBA2DC8430CAE9678EA6807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B6C1C798E8A1AB75B520C46BBCC985 /* Foundation.framework in Frameworks */,
+				D1CFE144B1F7E565993610EC95CD233B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794EE2A58ACC81276FFF3FE784074300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D074FA9E5CF3D84B3890F7296F22322 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19ABDE024BAFF2CF0550191B5354EBE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FDD369DC7E5E83C6F77363F95BB87DC /* CarLensCollectionViewLayout.framework */,
+				DAB5AB1F9A72C45CA698705A90E5A963 /* ConfettiView.framework */,
+				61E7578FBE2BDA8036F8FA3AA7B08396 /* Pods_presento.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E34C3C19476DDDCC470C7C627A0F697 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD45168D31105605CA4C7CF48FF0B93F /* CarLensCollectionViewLayout */,
+				D9083F52CF61C0227F2B1726C5615DF8 /* ConfettiView-NSHipster */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B6F49624BB89214D401ACA5379764FF /* Pods-presento */ = {
+			isa = PBXGroup;
+			children = (
+				1BB93494836C469630B4FD0D15DF7E89 /* Pods-presento.modulemap */,
+				D8D7F176764CE52E5D7648F0DFF8070E /* Pods-presento-acknowledgements.markdown */,
+				FE59A8823DC082CE2FC37909908A8FFD /* Pods-presento-acknowledgements.plist */,
+				1EDE6C0F0FE41CF59A267F4EB1DD82DC /* Pods-presento-dummy.m */,
+				0E402480570F369262799F034BF1B9DE /* Pods-presento-frameworks.sh */,
+				E5B6435440CD2BE1FAB437E36B0D1D79 /* Pods-presento-Info.plist */,
+				83DE2A0D8E9963414A8C96E3B4EA0AEA /* Pods-presento-umbrella.h */,
+				F4280F237432297561990817B7638565 /* Pods-presento.debug.xcconfig */,
+				174BAC527ED34C655AE500865E605700 /* Pods-presento.release.xcconfig */,
+			);
+			name = "Pods-presento";
+			path = "Target Support Files/Pods-presento";
+			sourceTree = "<group>";
+		};
+		87ABAE26878FED600A7E2B357374D084 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B6F49624BB89214D401ACA5379764FF /* Pods-presento */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8EB30BF58148ABA6D957CE47551B0DC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07C98344ECB861D2011A73A12D7084AE /* CarLensCollectionViewLayout.modulemap */,
+				BFFD323199C5928F7E4F62D35A495A86 /* CarLensCollectionViewLayout-dummy.m */,
+				12BCDC3DA5A5B00B77E14A3660A5EA0D /* CarLensCollectionViewLayout-Info.plist */,
+				3DF0829466C5AD8836C5E5AAD3CC37DC /* CarLensCollectionViewLayout-prefix.pch */,
+				82F719F6F5E39D54152AF0C39D7AB7CA /* CarLensCollectionViewLayout-umbrella.h */,
+				675EEC465193B0B6BBD677F6BEB1726B /* CarLensCollectionViewLayout.debug.xcconfig */,
+				57FC77C5D6580210059D323E1298756D /* CarLensCollectionViewLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CarLensCollectionViewLayout";
+			sourceTree = "<group>";
+		};
+		9A1C65106D0ADF4EC3FD885A777689CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9870BE9098680AC3FA67C158AAC5EB25 /* ConfettiView-NSHipster.modulemap */,
+				C27628D79CA8CF526101F1EB13280560 /* ConfettiView-NSHipster-dummy.m */,
+				9AC18C3B41AAF5EA5DBFCC8553C4999B /* ConfettiView-NSHipster-Info.plist */,
+				96B30BB649244CF991775D4AF70AC1A6 /* ConfettiView-NSHipster-prefix.pch */,
+				AA40065DE87F92F30F93E0F3A583104B /* ConfettiView-NSHipster-umbrella.h */,
+				6DCCFAFB93FE69D4488C48084DEA5375 /* ConfettiView-NSHipster.debug.xcconfig */,
+				89CA430315BADA4C7C6A5B37CF823B32 /* ConfettiView-NSHipster.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ConfettiView-NSHipster";
+			sourceTree = "<group>";
+		};
+		CD45168D31105605CA4C7CF48FF0B93F /* CarLensCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EE7FD77737BC00F47E3D535DEB6E37C9 /* CarLensCollectionViewCell.swift */,
+				851C009419429ADD74D25CED5B65BB45 /* CarLensCollectionViewLayout.swift */,
+				03DF77D48541759705E49582521414E6 /* CarLensCollectionViewLayoutOptions.swift */,
+				506645C2D555DF7BBFDCF25655A16FA3 /* CarLensLayoutAttributes.swift */,
+				8EB30BF58148ABA6D957CE47551B0DC5 /* Support Files */,
+			);
+			name = CarLensCollectionViewLayout;
+			path = CarLensCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				4E34C3C19476DDDCC470C7C627A0F697 /* Pods */,
+				19ABDE024BAFF2CF0550191B5354EBE4 /* Products */,
+				87ABAE26878FED600A7E2B357374D084 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D9083F52CF61C0227F2B1726C5615DF8 /* ConfettiView-NSHipster */ = {
+			isa = PBXGroup;
+			children = (
+				D277053BA0C7D3A3C4B2794842BD7E7D /* ConfettiView.swift */,
+				9A1C65106D0ADF4EC3FD885A777689CD /* Support Files */,
+			);
+			name = "ConfettiView-NSHipster";
+			path = "ConfettiView-NSHipster";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		927AB8BB20344E30442F6859212FB179 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EC4A4758976FD4926A4ABCFE8ECCEC /* ConfettiView-NSHipster-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97B744DC077A2E19241B6CA506716607 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EC24231453835AF52189736EF9F596 /* Pods-presento-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFCC0D34BBF17AE938F11BE9822702E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047D76498A17B6C95D977218DFA73BA5 /* CarLensCollectionViewLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FD1D9A88D1FD41141B3C3DE33891E97 /* ConfettiView-NSHipster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3BFB5240F1BE7F48E85EF58508B8B0 /* Build configuration list for PBXNativeTarget "ConfettiView-NSHipster" */;
+			buildPhases = (
+				927AB8BB20344E30442F6859212FB179 /* Headers */,
+				5EBEE975FA75B8155EA6C130793B45B6 /* Sources */,
+				3830C31B5FBA2DC8430CAE9678EA6807 /* Frameworks */,
+				B96513B352CE4C6DDA6F4D57F7B398BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ConfettiView-NSHipster";
+			productName = "ConfettiView-NSHipster";
+			productReference = DAB5AB1F9A72C45CA698705A90E5A963 /* ConfettiView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		337E77781DB4672FC745BCECDF329B93 /* CarLensCollectionViewLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47F6635D1B34A9AD730F32467469CB3 /* Build configuration list for PBXNativeTarget "CarLensCollectionViewLayout" */;
+			buildPhases = (
+				FFFCC0D34BBF17AE938F11BE9822702E /* Headers */,
+				F471F6E31CFE5365829D1C4195179367 /* Sources */,
+				262FBC9F1A25D944677836FBCB061202 /* Frameworks */,
+				7075AC9636F265E4BE34D7659A084175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarLensCollectionViewLayout;
+			productName = CarLensCollectionViewLayout;
+			productReference = 4FDD369DC7E5E83C6F77363F95BB87DC /* CarLensCollectionViewLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB82BE73FCDC5C8F8BDC550961D548DB /* Pods-presento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32C39AB7C95397E6454458D1EC079EA /* Build configuration list for PBXNativeTarget "Pods-presento" */;
+			buildPhases = (
+				97B744DC077A2E19241B6CA506716607 /* Headers */,
+				CFDBFF3D1EC97867EB00AA36BC96655B /* Sources */,
+				794EE2A58ACC81276FFF3FE784074300 /* Frameworks */,
+				85D1FF8C8037393E2F4F9BCF783F802F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF3CE3FDCF56462BFBAD9313F5EF805 /* PBXTargetDependency */,
+				B930AA4D21DEF26F4676994B76C057FE /* PBXTargetDependency */,
+			);
+			name = "Pods-presento";
+			productName = "Pods-presento";
+			productReference = 61E7578FBE2BDA8036F8FA3AA7B08396 /* Pods_presento.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 19ABDE024BAFF2CF0550191B5354EBE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				337E77781DB4672FC745BCECDF329B93 /* CarLensCollectionViewLayout */,
+				0FD1D9A88D1FD41141B3C3DE33891E97 /* ConfettiView-NSHipster */,
+				AB82BE73FCDC5C8F8BDC550961D548DB /* Pods-presento */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7075AC9636F265E4BE34D7659A084175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D1FF8C8037393E2F4F9BCF783F802F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96513B352CE4C6DDA6F4D57F7B398BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EBEE975FA75B8155EA6C130793B45B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD39CB2AC1308D3CA672E46BECDA9210 /* ConfettiView-NSHipster-dummy.m in Sources */,
+				EB94FFA4EE05343DEF170B89622C48B6 /* ConfettiView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDBFF3D1EC97867EB00AA36BC96655B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4A365AAEB3F175BFC0AAF8F4A19CDE /* Pods-presento-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F471F6E31CFE5365829D1C4195179367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45640AC59C2BDAFC00CEB270C2AF1149 /* CarLensCollectionViewCell.swift in Sources */,
+				54409DDFE1401F6EEF32EF1DB30D6400 /* CarLensCollectionViewLayout-dummy.m in Sources */,
+				EAC33282C658E3416D85AE93CC6D4274 /* CarLensCollectionViewLayout.swift in Sources */,
+				9475F41820409846EBDBF6A38A9D5A96 /* CarLensCollectionViewLayoutOptions.swift in Sources */,
+				7DB8B62463000ECBCAC8F938491C8904 /* CarLensLayoutAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B930AA4D21DEF26F4676994B76C057FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ConfettiView-NSHipster";
+			target = 0FD1D9A88D1FD41141B3C3DE33891E97 /* ConfettiView-NSHipster */;
+			targetProxy = BABAD86958CEAA2A74CDB9AB38802591 /* PBXContainerItemProxy */;
+		};
+		CFF3CE3FDCF56462BFBAD9313F5EF805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CarLensCollectionViewLayout;
+			target = 337E77781DB4672FC745BCECDF329B93 /* CarLensCollectionViewLayout */;
+			targetProxy = 57709250C1ACE2C2B9854861B7BD66B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36D26452DAE09861DF606D07D0DB92DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89CA430315BADA4C7C6A5B37CF823B32 /* ConfettiView-NSHipster.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConfettiView-NSHipster/ConfettiView-NSHipster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConfettiView-NSHipster/ConfettiView-NSHipster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ConfettiView-NSHipster/ConfettiView-NSHipster.modulemap";
+				PRODUCT_MODULE_NAME = ConfettiView;
+				PRODUCT_NAME = ConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		632E6961B6CFC3DD30F404C5FC826EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCCFAFB93FE69D4488C48084DEA5375 /* ConfettiView-NSHipster.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConfettiView-NSHipster/ConfettiView-NSHipster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConfettiView-NSHipster/ConfettiView-NSHipster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ConfettiView-NSHipster/ConfettiView-NSHipster.modulemap";
+				PRODUCT_MODULE_NAME = ConfettiView;
+				PRODUCT_NAME = ConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		758815DCE4344F9C24AA62E418C7E4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FC77C5D6580210059D323E1298756D /* CarLensCollectionViewLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CarLensCollectionViewLayout/CarLensCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CarLensCollectionViewLayout/CarLensCollectionViewLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CarLensCollectionViewLayout/CarLensCollectionViewLayout.modulemap";
+				PRODUCT_MODULE_NAME = CarLensCollectionViewLayout;
+				PRODUCT_NAME = CarLensCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		93CB86AA263662FAAAE922795C6864DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 174BAC527ED34C655AE500865E605700 /* Pods-presento.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-presento/Pods-presento-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-presento/Pods-presento.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7F07FD053768146A30B402885BCB19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4280F237432297561990817B7638565 /* Pods-presento.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-presento/Pods-presento-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-presento/Pods-presento.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB24A0B03521050FEE4443CA40573DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675EEC465193B0B6BBD677F6BEB1726B /* CarLensCollectionViewLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CarLensCollectionViewLayout/CarLensCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CarLensCollectionViewLayout/CarLensCollectionViewLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CarLensCollectionViewLayout/CarLensCollectionViewLayout.modulemap";
+				PRODUCT_MODULE_NAME = CarLensCollectionViewLayout;
+				PRODUCT_NAME = CarLensCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47F6635D1B34A9AD730F32467469CB3 /* Build configuration list for PBXNativeTarget "CarLensCollectionViewLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB24A0B03521050FEE4443CA40573DDE /* Debug */,
+				758815DCE4344F9C24AA62E418C7E4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32C39AB7C95397E6454458D1EC079EA /* Build configuration list for PBXNativeTarget "Pods-presento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F07FD053768146A30B402885BCB19F /* Debug */,
+				93CB86AA263662FAAAE922795C6864DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3BFB5240F1BE7F48E85EF58508B8B0 /* Build configuration list for PBXNativeTarget "ConfettiView-NSHipster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632E6961B6CFC3DD30F404C5FC826EE7 /* Debug */,
+				36D26452DAE09861DF606D07D0DB92DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module CarLensCollectionViewLayout {
+  umbrella header "CarLensCollectionViewLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

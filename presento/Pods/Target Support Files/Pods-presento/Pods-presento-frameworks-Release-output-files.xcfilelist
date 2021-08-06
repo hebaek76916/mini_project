@@ -1,0 +1,2 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CarLensCollectionViewLayout.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ConfettiView.framework

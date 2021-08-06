@@ -1,0 +1,20 @@
+PODS:
+  - CarLensCollectionViewLayout (1.2.0)
+  - ConfettiView-NSHipster (0.3.1)
+
+DEPENDENCIES:
+  - CarLensCollectionViewLayout (~> 1.2.0)
+  - ConfettiView-NSHipster
+
+SPEC REPOS:
+  trunk:
+    - CarLensCollectionViewLayout
+    - ConfettiView-NSHipster
+
+SPEC CHECKSUMS:
+  CarLensCollectionViewLayout: 75a28307dbd7dbacbba417d13501415ff3471a68
+  ConfettiView-NSHipster: dd3f241dc342250ee37e0fc07e6d1adb6695eb0b
+
+PODFILE CHECKSUM: 3b062c28bf73300f283020a79aec57b4533f4a0c
+
+COCOAPODS: 1.10.1
