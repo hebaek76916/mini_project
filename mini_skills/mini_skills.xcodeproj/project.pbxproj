@@ -14,6 +14,7 @@
 		13A6C6EA268CC0DB006B4A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A6C6E9268CC0DB006B4A11 /* Assets.xcassets */; };
 		13A6C6ED268CC0DB006B4A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A6C6EB268CC0DB006B4A11 /* LaunchScreen.storyboard */; };
 		13A6C6F7268CC35F006B4A11 /* FadeOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6C6F6268CC35F006B4A11 /* FadeOutViewController.swift */; };
+		13B2A42626BF8AE100AC9FBC /* MyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B2A42526BF8AE100AC9FBC /* MyAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		13A6C6EC268CC0DB006B4A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13A6C6EE268CC0DB006B4A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13A6C6F6268CC35F006B4A11 /* FadeOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeOutViewController.swift; sourceTree = "<group>"; };
+		13B2A42526BF8AE100AC9FBC /* MyAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				13A6C6F6268CC35F006B4A11 /* FadeOutViewController.swift */,
+				13B2A42526BF8AE100AC9FBC /* MyAlert.swift */,
 			);
 			path = TableVIewControllers;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13A6C6E5268CC0DB006B4A11 /* ViewController.swift in Sources */,
+				13B2A42626BF8AE100AC9FBC /* MyAlert.swift in Sources */,
 				13A6C6F7268CC35F006B4A11 /* FadeOutViewController.swift in Sources */,
 				13A6C6E1268CC0DB006B4A11 /* AppDelegate.swift in Sources */,
 				13A6C6E3268CC0DB006B4A11 /* SceneDelegate.swift in Sources */,

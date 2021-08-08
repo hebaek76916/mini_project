@@ -8,18 +8,24 @@
 import UIKit
 class Components {
     
-    let components = [(name: "Fade out Animation", vc: FadeOutViewController())]
+    let components = [(name: "Fade out Animation", vc: FadeOutViewController()),
+                      (name: "Custom Alert View", vc: UIViewController())
+    ]
 }
+
 
 
 class ViewController: UIViewController {
 
     let components = Components().components
+    let customAlert = MyAlert()
     
     let table = UITableView(frame: .zero)
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "SKILL List"
+        navigationItem.largeTitleDisplayMode = .always
         
         view.addSubview(table)
         table.delegate = self
@@ -49,9 +55,20 @@ extension ViewController: UITableViewDelegate,
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
         
-        navigationController?.pushViewController(components[indexPath.row].vc, animated: true)
+        if indexPath.row == 1 {
+            print("ALERT SELECT")
+            customAlert.showAlert(with: "HELLO WORLD",
+                                  message: "미미미미\n아 밥을많이 먹었다\n배불러 죽겠다",
+                                  on: self)
+        } else {
+            print("MOVE TO OTHER VC")
+            navigationController?.pushViewController(components[indexPath.row].vc, animated: true)
+        }
+        
     }
     
     
 }
+
+
 
