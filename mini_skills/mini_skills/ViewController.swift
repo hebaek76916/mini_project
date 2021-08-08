@@ -18,7 +18,7 @@ class Components {
 class ViewController: UIViewController {
 
     let components = Components().components
-    let customAlert = MyAlert()
+    let customAlert = MyAlert_AutoLayout()//MyAlert()
     
     let table = UITableView(frame: .zero)
     

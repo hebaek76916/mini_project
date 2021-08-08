@@ -15,6 +15,7 @@
 		13A6C6ED268CC0DB006B4A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A6C6EB268CC0DB006B4A11 /* LaunchScreen.storyboard */; };
 		13A6C6F7268CC35F006B4A11 /* FadeOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6C6F6268CC35F006B4A11 /* FadeOutViewController.swift */; };
 		13B2A42626BF8AE100AC9FBC /* MyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B2A42526BF8AE100AC9FBC /* MyAlert.swift */; };
+		13B2A42B26BF9E6200AC9FBC /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B2A42A26BF9E6200AC9FBC /* Extenstions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		13A6C6EE268CC0DB006B4A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13A6C6F6268CC35F006B4A11 /* FadeOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeOutViewController.swift; sourceTree = "<group>"; };
 		13B2A42526BF8AE100AC9FBC /* MyAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlert.swift; sourceTree = "<group>"; };
+		13B2A42A26BF9E6200AC9FBC /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				13A6C6E2268CC0DB006B4A11 /* SceneDelegate.swift */,
 				13A6C6E4268CC0DB006B4A11 /* ViewController.swift */,
 				13A6C6E6268CC0DB006B4A11 /* Main.storyboard */,
+				13B2A42A26BF9E6200AC9FBC /* Extenstions.swift */,
 				13A6C6E9268CC0DB006B4A11 /* Assets.xcassets */,
 				13A6C6F5268CC337006B4A11 /* TableVIewControllers */,
 				13A6C6EB268CC0DB006B4A11 /* LaunchScreen.storyboard */,
@@ -155,6 +158,7 @@
 				13B2A42626BF8AE100AC9FBC /* MyAlert.swift in Sources */,
 				13A6C6F7268CC35F006B4A11 /* FadeOutViewController.swift in Sources */,
 				13A6C6E1268CC0DB006B4A11 /* AppDelegate.swift in Sources */,
+				13B2A42B26BF9E6200AC9FBC /* Extenstions.swift in Sources */,
 				13A6C6E3268CC0DB006B4A11 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
