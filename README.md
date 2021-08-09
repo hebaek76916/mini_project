@@ -13,3 +13,4 @@ Dynamic Collection View Cell
 ## Animation Skills
 
 #### [Fading Out( Blink )](https://github.com/hebaek76916/mini_project/blob/master/mini_skills/mini_skills/TableVIewControllers/FadeOutViewController.swift)
+#### [Custom Alert View](https://github.com/hebaek76916/mini_project/blob/master/mini_skills/mini_skills/TableVIewControllers/MyAlert.swift)
