@@ -1,0 +1,32 @@
+PODS:
+  - MXPagerView (0.2.1)
+  - MXParallaxHeader (1.1.0)
+  - MXSegmentedControl (1.1.0)
+  - MXSegmentedPager (4.0.0):
+    - MXPagerView (~> 0.2)
+    - MXParallaxHeader (~> 1.0)
+    - MXSegmentedControl (~> 1.1)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - MXSegmentedPager
+  - XLPagerTabStrip (~> 9.0)
+
+SPEC REPOS:
+  trunk:
+    - MXPagerView
+    - MXParallaxHeader
+    - MXSegmentedControl
+    - MXSegmentedPager
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  MXPagerView: ede184b5191b2ed689ccf05a750a9978cce42414
+  MXParallaxHeader: de3c867e10ba46e8f6e20c8ee1f2a910372b3b94
+  MXSegmentedControl: f39e46199a52cbc03b1c845e150215119f2542f5
+  MXSegmentedPager: 527ee76513c96e6607eebe473fe49b7ab4971616
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: c8506b121a5ff00c852cd4de06a6f3408342c4ea
+
+COCOAPODS: 1.10.1

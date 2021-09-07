@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1303F3BE26DCFD7D00B7D6F9 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1303F3BD26DCFD7D00B7D6F9 /* PageViewController.swift */; };
+		1303F3C126DCFE2000B7D6F9 /* PagerTabStripName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1303F3C026DCFE2000B7D6F9 /* PagerTabStripName.swift */; };
+		1303F3C326DCFE8A00B7D6F9 /* A_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1303F3C226DCFE8A00B7D6F9 /* A_ViewController.swift */; };
+		1303F3C526DCFE9C00B7D6F9 /* B_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1303F3C426DCFE9C00B7D6F9 /* B_ViewController.swift */; };
+		1303F3C726DE62E200B7D6F9 /* MXSegmentedPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1303F3C626DE62E200B7D6F9 /* MXSegmentedPagerViewController.swift */; };
 		13A6C6E1268CC0DB006B4A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6C6E0268CC0DB006B4A11 /* AppDelegate.swift */; };
 		13A6C6E3268CC0DB006B4A11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6C6E2268CC0DB006B4A11 /* SceneDelegate.swift */; };
 		13A6C6E5268CC0DB006B4A11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6C6E4268CC0DB006B4A11 /* ViewController.swift */; };
@@ -16,9 +21,15 @@
 		13A6C6F7268CC35F006B4A11 /* FadeOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6C6F6268CC35F006B4A11 /* FadeOutViewController.swift */; };
 		13B2A42626BF8AE100AC9FBC /* MyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B2A42526BF8AE100AC9FBC /* MyAlert.swift */; };
 		13B2A42B26BF9E6200AC9FBC /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B2A42A26BF9E6200AC9FBC /* Extenstions.swift */; };
+		C8079F07AA7036A952C7B2ED /* Pods_mini_skills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B1AB4DDF743D45FCD02AF9 /* Pods_mini_skills.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1303F3BD26DCFD7D00B7D6F9 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		1303F3C026DCFE2000B7D6F9 /* PagerTabStripName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerTabStripName.swift; sourceTree = "<group>"; };
+		1303F3C226DCFE8A00B7D6F9 /* A_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_ViewController.swift; sourceTree = "<group>"; };
+		1303F3C426DCFE9C00B7D6F9 /* B_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_ViewController.swift; sourceTree = "<group>"; };
+		1303F3C626DE62E200B7D6F9 /* MXSegmentedPagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXSegmentedPagerViewController.swift; sourceTree = "<group>"; };
 		13A6C6DD268CC0DB006B4A11 /* mini_skills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mini_skills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A6C6E0268CC0DB006B4A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13A6C6E2268CC0DB006B4A11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +41,9 @@
 		13A6C6F6268CC35F006B4A11 /* FadeOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeOutViewController.swift; sourceTree = "<group>"; };
 		13B2A42526BF8AE100AC9FBC /* MyAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlert.swift; sourceTree = "<group>"; };
 		13B2A42A26BF9E6200AC9FBC /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		6E80F28E50FE2CC014678730 /* Pods-mini_skills.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mini_skills.release.xcconfig"; path = "Target Support Files/Pods-mini_skills/Pods-mini_skills.release.xcconfig"; sourceTree = "<group>"; };
+		A8B1AB4DDF743D45FCD02AF9 /* Pods_mini_skills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mini_skills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3334E307B039D2C3CDE5655 /* Pods-mini_skills.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mini_skills.debug.xcconfig"; path = "Target Support Files/Pods-mini_skills/Pods-mini_skills.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +51,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8079F07AA7036A952C7B2ED /* Pods_mini_skills.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1303F3BF26DCFE0300B7D6F9 /* Pager(XL Pager Strip) */ = {
+			isa = PBXGroup;
+			children = (
+				1303F3BD26DCFD7D00B7D6F9 /* PageViewController.swift */,
+				1303F3C026DCFE2000B7D6F9 /* PagerTabStripName.swift */,
+				1303F3C226DCFE8A00B7D6F9 /* A_ViewController.swift */,
+				1303F3C426DCFE9C00B7D6F9 /* B_ViewController.swift */,
+			);
+			path = "Pager(XL Pager Strip)";
+			sourceTree = "<group>";
+		};
 		13A6C6D4268CC0DB006B4A11 = {
 			isa = PBXGroup;
 			children = (
 				13A6C6DF268CC0DB006B4A11 /* mini_skills */,
 				13A6C6DE268CC0DB006B4A11 /* Products */,
+				E5B0814BD519701D9B130481 /* Pods */,
+				23EBDBFE71EA90EEA745F695 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,8 +108,27 @@
 			children = (
 				13A6C6F6268CC35F006B4A11 /* FadeOutViewController.swift */,
 				13B2A42526BF8AE100AC9FBC /* MyAlert.swift */,
+				1303F3C626DE62E200B7D6F9 /* MXSegmentedPagerViewController.swift */,
+				1303F3BF26DCFE0300B7D6F9 /* Pager(XL Pager Strip) */,
 			);
 			path = TableVIewControllers;
+			sourceTree = "<group>";
+		};
+		23EBDBFE71EA90EEA745F695 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8B1AB4DDF743D45FCD02AF9 /* Pods_mini_skills.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5B0814BD519701D9B130481 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3334E307B039D2C3CDE5655 /* Pods-mini_skills.debug.xcconfig */,
+				6E80F28E50FE2CC014678730 /* Pods-mini_skills.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13A6C6F1268CC0DB006B4A11 /* Build configuration list for PBXNativeTarget "mini_skills" */;
 			buildPhases = (
+				953CA4E8C3842FB2C4B04B25 /* [CP] Check Pods Manifest.lock */,
 				13A6C6D9268CC0DB006B4A11 /* Sources */,
 				13A6C6DA268CC0DB006B4A11 /* Frameworks */,
 				13A6C6DB268CC0DB006B4A11 /* Resources */,
+				D84EE08EE38EDF9DB979F685 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,15 +198,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		953CA4E8C3842FB2C4B04B25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mini_skills-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D84EE08EE38EDF9DB979F685 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mini_skills/Pods-mini_skills-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mini_skills/Pods-mini_skills-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mini_skills/Pods-mini_skills-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		13A6C6D9268CC0DB006B4A11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1303F3C326DCFE8A00B7D6F9 /* A_ViewController.swift in Sources */,
 				13A6C6E5268CC0DB006B4A11 /* ViewController.swift in Sources */,
+				1303F3BE26DCFD7D00B7D6F9 /* PageViewController.swift in Sources */,
 				13B2A42626BF8AE100AC9FBC /* MyAlert.swift in Sources */,
+				1303F3C726DE62E200B7D6F9 /* MXSegmentedPagerViewController.swift in Sources */,
+				1303F3C126DCFE2000B7D6F9 /* PagerTabStripName.swift in Sources */,
 				13A6C6F7268CC35F006B4A11 /* FadeOutViewController.swift in Sources */,
 				13A6C6E1268CC0DB006B4A11 /* AppDelegate.swift in Sources */,
+				1303F3C526DCFE9C00B7D6F9 /* B_ViewController.swift in Sources */,
 				13B2A42B26BF9E6200AC9FBC /* Extenstions.swift in Sources */,
 				13A6C6E3268CC0DB006B4A11 /* SceneDelegate.swift in Sources */,
 			);
@@ -303,6 +399,7 @@
 		};
 		13A6C6F2268CC0DB006B4A11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3334E307B039D2C3CDE5655 /* Pods-mini_skills.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,6 +419,7 @@
 		};
 		13A6C6F3268CC0DB006B4A11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E80F28E50FE2CC014678730 /* Pods-mini_skills.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

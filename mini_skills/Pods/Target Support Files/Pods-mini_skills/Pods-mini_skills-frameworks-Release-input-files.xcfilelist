@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-mini_skills/Pods-mini_skills-frameworks.sh
+${BUILT_PRODUCTS_DIR}/MXPagerView/MXPagerView.framework
+${BUILT_PRODUCTS_DIR}/MXParallaxHeader/MXParallaxHeader.framework
+${BUILT_PRODUCTS_DIR}/MXSegmentedControl/MXSegmentedControl.framework
+${BUILT_PRODUCTS_DIR}/MXSegmentedPager/MXSegmentedPager.framework
+${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework
