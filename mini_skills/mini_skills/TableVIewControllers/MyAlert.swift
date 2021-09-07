@@ -39,12 +39,6 @@ class MyAlert {
         
         myTargetView = targetView
         
-//        myTargetView?.translatesAutoresizingMaskIntoConstraints = false
-//        targetView.translatesAutoresizingMaskIntoConstraints = false
-//        backgrounView.translatesAutoresizingMaskIntoConstraints = false
-//        alertView.translatesAutoresizingMaskIntoConstraints = false
-        
-        
         
         backgrounView.frame = targetView.bounds
         
@@ -58,7 +52,7 @@ class MyAlert {
         alertView.frame = CGRect(x: 40, y: -300,
                                  width: targetView.frame.size.width - 80,
                                  height: 300)
-        //alertView.leadingAnchor.constraint(equalTo: targetView.leadingAnchor)
+
         
         
         
@@ -270,7 +264,7 @@ class MyAlert_AutoLayout {
         UIView.animate(withDuration: 0.25,
                        animations: {
                         self.alertView.frame = CGRect(x: 40,
-                                                      y: targetView.frame.size.height,
+                                                      y: targetView.frame.size.height - 100,
                                                       width: targetView.frame.size.width - 80,
                                                       height: 300)
                        }, completion: { done in

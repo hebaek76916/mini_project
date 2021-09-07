@@ -9,7 +9,9 @@ import UIKit
 class Components {
     
     let components = [(name: "Fade out Animation", vc: FadeOutViewController()),
-                      (name: "Custom Alert View", vc: UIViewController())
+                      (name: "Custom Alert View", vc: UIViewController()),
+                      (name: "Pager(XL Strib Pager)", vc: PagerStripName()),
+                      (name: "aaa", vc: MXSegmentedPagerViewController())
     ]
 }
 
