@@ -248,6 +248,8 @@ extension StockDetailsViewController: UITableViewDelegate,
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
+        HapticsManager.shared.vibrateForSelection()
+        
         guard let url = URL(string: stories[indexPath.row].url) else { return }
         let vc = SFSafariViewController(url: url)
         present(vc, animated: true)
@@ -256,6 +258,9 @@ extension StockDetailsViewController: UITableViewDelegate,
 
 extension StockDetailsViewController: NewsHeaderViewDelegate {
     func newsHeaderViewDidTapAddButton(_ headerView: NewsHeaderView) {
+        
+        HapticsManager.shared.vibrate(for: .success)
+        
         // Add to watchlist
         headerView.button.isHidden = true
         PersistenceManager.shared.addToWatchlist(

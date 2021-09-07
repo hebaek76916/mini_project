@@ -71,6 +71,9 @@ extension SearchResultsViewController: UITableViewDelegate,
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        HapticsManager.shared.vibrateForSelection()
+        
         let model = results[indexPath.row]
         delegate?.searchResultsViewControllerDidSelect(searchResult: model)
     }
