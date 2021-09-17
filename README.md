@@ -8,8 +8,13 @@
 ### [COVID Chart](https://github.com/hebaek76916/mini_project/tree/master/COVIDCHART_IOSACADEMY)
    Tutorial Video : [https://www.youtube.com/watch?v=MyYV65boqec&t=3480s](https://www.youtube.com/watch?v=MyYV65boqec&t=3480s)
 
+### [Stock](https://github.com/hebaek76916/mini_project/tree/master/Stocks)
+   MVVM,
+   Only Code Layout
+   
 Dynamic Collection View Cell
 
 ## Animation Skills
 
 #### [Fading Out( Blink )](https://github.com/hebaek76916/mini_project/blob/master/mini_skills/mini_skills/TableVIewControllers/FadeOutViewController.swift)
+#### [Custom Alert View](https://github.com/hebaek76916/mini_project/blob/master/mini_skills/mini_skills/TableVIewControllers/MyAlert.swift)
