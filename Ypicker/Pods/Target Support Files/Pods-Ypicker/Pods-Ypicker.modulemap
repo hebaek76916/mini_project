@@ -1,0 +1,6 @@
+framework module Pods_Ypicker {
+  umbrella header "Pods-Ypicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
